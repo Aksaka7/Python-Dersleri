@@ -31,6 +31,7 @@ splityap = message.split()
 
 
 # result = "*".join(message)
+
 # String ifade içerisinde arama yapar varsa başlangıç değerini dönderir yoksa -1 dönderir
 
 # result = message.find("Eren")
