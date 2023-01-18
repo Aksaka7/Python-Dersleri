@@ -1,4 +1,4 @@
-website = "http://www.erensunar.com"
+website = "http://www.MehmetASKER.com"
 course = "Python Kursu: Baştan Sona Python Programlama "
 mesaj = " Hello World "
 
