@@ -1,6 +1,7 @@
 
-# icilenCaySayisi = input("Kaç adet çay içtiniz: ")
-# yenilenKekSayisi = input("Kaç adet kek yediniz: ")
+icilenCaySayisi = input("Kaç adet çay içtiniz: ")
+yenilenKekSayisi = input("Kaç adet kek yediniz: ")
+
 
 
 # print(type(icilenCaySayisi))
@@ -29,10 +30,10 @@
 # fatura = (icilenCaySayisi * cayFiyati) + (yenilenKekSayisi * kekFiyati)
 # print(fatura)
 
-x = 5
-y = 2.5
-name = "10"
-isStudent = True
+# x = 5
+# y = 2.5
+# name = "10"
+# isStudent = True
 
 # y = int(y)
 # print(y)
@@ -43,6 +44,6 @@ isStudent = True
 # name = int(name)
 # print(name)
 
-isStudent = int(isStudent)
-print(isStudent)
-print(type("Mehmet Asker"))
+# isStudent = int(isStudent)
+# print(isStudent)
+# print(type("Mehmet Asker"))

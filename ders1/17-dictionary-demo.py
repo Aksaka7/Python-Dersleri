@@ -20,27 +20,66 @@
     1- Bilgileri verilen öğrencileri kullanıcıdan aldığınız bilgilerle
        dictionary içinde saklayınız.
 
+
+
     2- Öğrenci numarasını kullanıcıdan alıp ilgili öğrenci bilgisini gösterin.
 '''
 
+# #Formated string x numaralı öğrencinin ismi budur soyadı şudur, yaş, teletgon
+# print(ogrenciler)
 
 ogrenciler = {}
 
-number = input("Öğrenci no: ")
-name = input("Öğrenci adı: ")
-surname = input("Öğrenci saoyad: ")
-phone = int(input("Öğrenci telefon: "))
+student_Numbers = int(input("Lütfen Öğrenci numarasını giriniz: "))
+student_Name = input("Lütfen Adınızı giriniz: ")
+student_Surname = input("Lütfen Soyadınızı giriniz: ")
+phone_Numbers = input("Lütfen Telefon numarasını giriniz: ")
 
 ogrenciler.update({
-    number:{
-        "ad":name,
-        "soyad":surname,
-        "telefon":phone,
-        "dogumYılı":2001
-
-
-    }
+    student_Numbers: {
+        'name': student_Name,
+        'surname': student_Surname,
+        'phone': phone_Numbers,
+    },
 })
-# sorgulanacak_no = input()
-# #Formated string x numaralı öğrencinin ismi budur soyadı şudur, yaş, teletgon 
-# print(ogrenciler)
+
+print("-------------------------------------------\n")
+
+student_Numbers = int(input("Lütfen Öğrenci numarasını giriniz: "))
+student_Name = input("Lütfen Adınızı giriniz: ")
+student_Surname = input("Lütfen Soyadınızı giriniz: ")
+phone_Numbers = input("Lütfen Telefon numarasını giriniz: ")
+
+ogrenciler.update({
+    student_Numbers: {
+        'name': student_Name,
+        'surname': student_Surname,
+        'phone': phone_Numbers,
+    },
+})
+
+print("-------------------------------------------\n")
+
+
+student_Numbers = int(input("Lütfen Öğrenci numarasını giriniz: "))
+student_Name = input("Lütfen Adınızı giriniz: ")
+student_Surname = input("Lütfen Soyadınızı giriniz: ")
+phone_Numbers = input("Lütfen Telefon numarasını giriniz: ")
+
+ogrenciler.update({
+    student_Numbers: {
+        'name': student_Name,
+        'surname': student_Surname,
+        'phone': phone_Numbers,
+    },
+})
+
+print("-------------------------------------------\n")
+
+
+ogrenci_number = int(input("İstenilen ögrencinin Numarası giriniz: "))
+
+aranan_ogrenci = ogrenciler[ogrenci_number]
+
+print(
+    f"Aradıgınız {ogrenci_number} nolu ögrencinin Adı Soyadı: {aranan_ogrenci['name']} {aranan_ogrenci['surname']} telefon numarsı: {aranan_ogrenci['phone']}")

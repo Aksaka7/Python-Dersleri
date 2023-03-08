@@ -1,4 +1,4 @@
-numbers = [5,7,9,100,-1,20,22,55,3]
+numbers = [5, 7, 9, 100, -1, 20, 22, 55, 3]
 letters = []
 
 
@@ -13,6 +13,7 @@ letters = []
 # print(numbers)
 # numbers.append("kemal")
 # numbers.insert(len(numbers),"Hüseyin")
+# POP metodu ile Eleman silme işlemi yapabilir İndex numaraı vererek ilgili yeri silersin
 # birinceleman = numbers.pop(0)
 
 # yeni_liste = []

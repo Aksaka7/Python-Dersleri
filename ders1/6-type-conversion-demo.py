@@ -6,14 +6,19 @@
 #     hesaplayınız. (r: 3.14)
 # '''
 
+# r = float(input("Daire Alanı : "))
 # pi = 3.14
 
-# r = float(input("Yarıçap değeri giriniz: "))
+# alan = pi * (r**2)
 
-# daireAlani = pi  * r *r
-# daireCevresi = 2 * pi * r
+# cevre = 2 * pi * r
 
-# print("Girmiş olduğunuz dairenin alanı " + str(daireAlani )+ " Dairenin çevresi ise " + str(daireCevresi))
+# print("Girmiş olduğunuz dairenin alanı " + str(alan) + " Dairenin çevresi ise " + str(cevre))
+
+
+
+
+
 
 
 # name = str(input("Lütfen Adiniz : "))

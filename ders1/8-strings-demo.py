@@ -1,59 +1,34 @@
-website = "http://www.erensunar.com"
-course = "Python Kursu: Baştan Sona Python Programlama Rehberiniz (40 saat)"
+website = "https://www.mehmetasker.com/"
+course = "Başlangıç seviyesi Python Kursu: Baştan sona Programlama Rehberi (40 Saat)'lik Egitim."
 
-# 1- 'course' karakter dizisinde kaç karakter bulunmaktadır ?
-# Lenght
-# result = len(website)
-yazdir = len(website + course)
+# 1- 'Course' karkteri dizisinde kaç karakter bulunmaktadır.
+karakterin_Uzunlugu = len(course) #86
 
-# 2- 'website' içinden www karakterlerini alın.
-# result = website[7:10]
+# 2- 'website' içinden www Karakterlerinini Al ve ekrane yaz
+karakteri_Al = website[8:11] #www Aldık
 
-result = website[7:10]
+# 3- 'website' içinden com Karakterlerinini Al ve ekrane yaz
+karakteri_Al = website[-4:-1]
 
+# 4- 'course' içinden ilk ve son 15 karakteri yazdır. 
+karakteri_Al = course[:15]
+karakteri_Al = course[-15:]
 
-# 3- 'website' içinden com karakterlerini alın.
-# result = website[-3:]
+# 5- 'course' ifadesindeki karakterleri tersten yazdırın
+karakteri_Al = course[::-1]
 
-result = website[-3:]
+name,surname,age,jop = 'Bora','Yılmaz',32,'Mühendis'
+# 6- Yukarıdaki verilen degişkenler ile ekrana aşağıdaki ifadeyi yazdırın. 
+# 'BEnim adım Bora Yılmaz, Yaşım 32 ve meslegim mühendis.'
+#print(f"Benim adım {name} {surname}, Yaşım {age} ve Meslegim {jop}.")
 
-
-# 4- 'course' içinden ilk 15 ve son 15 karakterlerini alın.
-# ilk15 = course[:15]
-# son15 = course[-15:]
-# print(ilk15)
-# print(son15)
-
-first15 = course[:15]
-last15 = course[-15:]
-
-# print("Bu İlk 15 Karakterdir : " + first15)
-# print("Bu Son 15 karakterdir : " + last15)
-
-# 5- 'course' ifadesindeki karakterleri tersten yazdırın.
-# result = course[::-1]
-
-wrongprint = course[::-1]
-
-name, surname, age, job = "Zoe Nisa", "Asker", 3,  "Bebeğim"
-# x,y = 30, 31
-# 6- Yukarıda verilen değişkenler ile ekrana aşağıdaki ifadeyi yazdırın.
-#    'Benim adım Bora Yılmaz, Yaşım 32 ve mesleğim mühendis.'
-# result = "Benim adım " + name + " " + surname + ", Yaşım " + str(age) + " ve mesleğim " + job
-# result = f"Benim adım {name} {surname}, Yaşım {age} ve mesleğim {job}" #Formatted stringlerde tür dönüşümüne gerek yoktur.
-
-ffonction = f"Benim adım {name} {surname}, Yaşım {age} ve meslegim {job}"
+# 7 - 'Hello world' içindeki w harfini W ile degiştir. 
+hello = "Hello world"
+karakteri_Al= hello[0:6] + "W" + hello[-4:]
 
 
-# 7- 'Hello world' ifadesindeki w harfini 'W' ile değiştirin.
-string = 'Hello world'
-# result = string[:6] + "W" + string[-4:]
+#8 - 'abc' ifadesini yan yana 3 defa yazınız.
 
-result = string[:6] + "M" + string[-4:]
+karakteri_Al = "abc " * 3
 
-# 8- 'abc' ifadesini yan yana 4 defa yazdırın.
-# result = "abc" * 3
-
-result = "abc " * 4
-
-print(" " + result)
+print(karakteri_Al)

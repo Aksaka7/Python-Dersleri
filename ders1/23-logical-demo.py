@@ -51,9 +51,43 @@
 # # vize = float(input("Vize notunu giriniz: "))
 # # final = float(input("Final notunu giriniz: "))
 
-# # result = (vize*0.6)+(final*0.4) 
+# # result = (vize*0.6)+(final*0.4)
 
 # # print(result)
 
 
 # 6- Kişinin ad, kilo ve boy bilgilerini alıp kilo indekslerini hesaplayınız.
+
+# name = input("Lütfen Adınızı giriniz: ")
+# boy = float(input("Lütfen boyunuzu giriniz: "))
+# kilo = float(input("Lütfen Kilonunu giriniz: "))
+
+# vucut_Kitle_Endeksi = kilo / (boy*boy)
+
+# if vucut_Kitle_Endeksi <= 18.5:
+#     print("İdeal Kilonun altındasınız...")
+# if vucut_Kitle_Endeksi > 18.5 and vucut_Kitle_Endeksi < 24.9:
+#     print("İdeal Kilodasın...")
+# if vucut_Kitle_Endeksi > 24.9 and vucut_Kitle_Endeksi <29.9:
+#     print("ideal Kilonun üstündesin")
+# if vucut_Kitle_Endeksi > 29.9 and vucut_Kitle_Endeksi < 39.9:
+#     print("İdeal Kilonun üstündesin a.q (OBEZSİN a.q çocugu az ye)")
+# if vucut_Kitle_Endeksi > 40:
+#     print("Az yeeee Spor yap")
+
+
+# num = int(input("Sayı giriniz: "))
+
+# if num > 0 and num < 100:
+#     print(str(num) + " : Bu sayı 0-100 arasındadır. ")
+# else:
+#     print("Bu sayı 0 ile 100 arasında degildir...")
+
+
+# num = int(input("Sayı giriniz: "))
+
+# if num % 2 == 0 and num > 0:
+#     print(f"Bu sayı: {num} pozitif çift sayıdır.")
+# else:
+#     print(f"Bu sayı: {num} arama kriterlerine uymuyor.")
+

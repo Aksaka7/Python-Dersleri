@@ -1,4 +1,4 @@
-message = "Mehmet Beşir ile dersimiz devam ediyor. Bu ders 2. Ders çok güzel gidiyor\nKemal eren Sunar\nMehmet Beşir"
+message = "Mehmet Beşir ile dersimiz devam ediyor. Bu ders 2. Ders çok güzel gidiyor\nMehmet Beşir"
 # Kelimeleri boşluklardan parçalar
 # kelimelerListesi = message.split()
 # print(type(kelimelerListesi))
@@ -26,7 +26,7 @@ splityap = message.split()
 # result =message[0].upper() + message[1:].lower()
 
 # Baştaki ve sondaki boşlukları siler
-# message = "      Eren Sunar         "
+# message = "      Mehmet Beşir         "
 # result = message.strip()
 
 
@@ -34,12 +34,13 @@ splityap = message.split()
 
 # String ifade içerisinde arama yapar varsa başlangıç değerini dönderir yoksa -1 dönderir
 
-# result = message.find("Eren")
+# result = message.find("Mehmet Beşir")
 
 # website = "www.youtube.com"
 # Başlangıç değeri uyuşuyor mu
-# result = website.startswith("https")
 
+
+# result = website.startswith("https")
 # result = website.endswith(".com")
 
 # result = website.replace("YOUTUBE", "erensunar")
